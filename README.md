@@ -3,13 +3,5 @@
 ### PokeAPI Program
 
 This program is connected to the public PokeAPI https://pokeapi.co/ API.
-It will display the pokemon names, images, height, and weight. 
-To display other pokemon simply change the id in 
-```
-const apiData = {
-    url: 'https://pokeapi.co/api/v2/',
-    type: 'pokemon',
-    id: '25',
-}
-```
-to other number (max 3 digit)
+This program will act as a Pokemon Index, you will find the name of the Pokemons and their pictures, 
+as well as their description (Type, height, and weight)
